@@ -15,7 +15,7 @@ weights = [0.2 0.8 -0.5 1.0;
 
 biases = [2, 3, 0.5]
 
-# Note: dot() in Julia is for Vectors. Vector * Matrix inner product is done like below.
+# Note: dot() in Julia is for Vectors. Matrix * Matrix inner product is done like below.
 # Ref: https://web.stanford.edu/class/engr108/julia_slides/julia_matrices_slides.pdf
 output = weights * inputs + biases
 println(output)
